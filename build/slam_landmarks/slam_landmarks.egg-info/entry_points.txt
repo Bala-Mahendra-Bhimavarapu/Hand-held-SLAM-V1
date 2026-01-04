@@ -1,0 +1,3 @@
+[console_scripts]
+landmark_3d_node = slam_landmarks.landmark_3d_node:main
+yolo_detector_node = slam_landmarks.yolo_detector_node:main

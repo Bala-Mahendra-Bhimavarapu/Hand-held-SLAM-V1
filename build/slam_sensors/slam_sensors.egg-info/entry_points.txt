@@ -1,0 +1,4 @@
+[console_scripts]
+arducam_tof_node = slam_sensors.arducam_tof_node:main
+mpu6050_node = slam_sensors.mpu6050_node:main
+pi_ai_cam_node = slam_sensors.pi_ai_cam_node:main

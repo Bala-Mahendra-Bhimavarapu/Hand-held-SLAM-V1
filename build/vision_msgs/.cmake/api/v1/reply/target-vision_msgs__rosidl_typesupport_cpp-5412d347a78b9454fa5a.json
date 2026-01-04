@@ -1,0 +1,691 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "libvision_msgs__rosidl_typesupport_cpp.so"
+		}
+	],
+	"backtrace" : 5,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"include",
+			"ament_execute_extensions",
+			"rosidl_generate_interfaces",
+			"_install",
+			"ament_cmake_symlink_install_targets",
+			"install",
+			"target_link_libraries",
+			"set_target_properties",
+			"find_package",
+			"add_dependencies",
+			"add_compile_options",
+			"add_definitions"
+		],
+		"files" : 
+		[
+			"/home/stargate/ros2_humble/install/rosidl_typesupport_cpp/share/rosidl_typesupport_cpp/cmake/rosidl_typesupport_cpp_generate_interfaces.cmake",
+			"/home/stargate/ros2_humble/install/ament_cmake_core/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake",
+			"/home/stargate/ros2_humble/install/rosidl_cmake/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake",
+			"CMakeLists.txt",
+			"/home/stargate/ros2_humble/install/ament_cmake_core/share/ament_cmake_core/cmake/symlink_install/ament_cmake_symlink_install_targets.cmake",
+			"/home/stargate/ros2_humble/install/ament_cmake_core/share/ament_cmake_core/cmake/symlink_install/install.cmake",
+			"/home/stargate/ros2_humble/install/rosidl_runtime_c/share/rosidl_runtime_c/cmake/rosidl_runtime_cExport.cmake",
+			"/home/stargate/ros2_humble/install/rosidl_runtime_c/share/rosidl_runtime_c/cmake/ament_cmake_export_targets-extras.cmake",
+			"/home/stargate/ros2_humble/install/rosidl_runtime_c/share/rosidl_runtime_c/cmake/rosidl_runtime_cConfig.cmake",
+			"/home/stargate/ros2_humble/install/builtin_interfaces/share/builtin_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake",
+			"/home/stargate/ros2_humble/install/builtin_interfaces/share/builtin_interfaces/cmake/builtin_interfacesConfig.cmake",
+			"/home/stargate/ros2_humble/install/std_msgs/share/std_msgs/cmake/ament_cmake_export_dependencies-extras.cmake",
+			"/home/stargate/ros2_humble/install/std_msgs/share/std_msgs/cmake/std_msgsConfig.cmake",
+			"/home/stargate/ros2_humble/install/rcutils/share/rcutils/cmake/rcutilsExport.cmake",
+			"/home/stargate/ros2_humble/install/rcutils/share/rcutils/cmake/ament_cmake_export_targets-extras.cmake",
+			"/home/stargate/ros2_humble/install/rcutils/share/rcutils/cmake/rcutilsConfig.cmake",
+			"/home/stargate/ros2_humble/install/rosidl_runtime_c/share/rosidl_runtime_c/cmake/ament_cmake_export_dependencies-extras.cmake",
+			"/home/stargate/ros2_humble/install/rosidl_generator_cpp/share/rosidl_generator_cpp/cmake/rosidl_generator_cpp_generate_interfaces.cmake",
+			"/home/stargate/ros2_humble/install/ament_cmake_ros/share/ament_cmake_ros/cmake/ament_cmake_ros-extras.cmake",
+			"/home/stargate/ros2_humble/install/ament_cmake_ros/share/ament_cmake_ros/cmake/ament_cmake_rosConfig.cmake",
+			"/home/stargate/ros2_humble/install/rosidl_typesupport_fastrtps_c/share/rosidl_typesupport_fastrtps_c/cmake/rosidl_typesupport_fastrtps_c_generate_interfaces.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 3,
+				"line" : 37,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 286,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 48,
+				"parent" : 2
+			},
+			{
+				"file" : 0,
+				"parent" : 3
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 87,
+				"parent" : 4
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 140,
+				"parent" : 4
+			},
+			{
+				"command" : 5,
+				"file" : 5,
+				"line" : 37,
+				"parent" : 6
+			},
+			{
+				"command" : 4,
+				"file" : 4,
+				"line" : 50,
+				"parent" : 7
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 129,
+				"parent" : 4
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 129,
+				"parent" : 4
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 129,
+				"parent" : 4
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 121,
+				"parent" : 4
+			},
+			{
+				"command" : 9,
+				"file" : 3,
+				"line" : 14,
+				"parent" : 0
+			},
+			{
+				"file" : 12,
+				"parent" : 13
+			},
+			{
+				"command" : 1,
+				"file" : 12,
+				"line" : 41,
+				"parent" : 14
+			},
+			{
+				"file" : 11,
+				"parent" : 15
+			},
+			{
+				"command" : 9,
+				"file" : 11,
+				"line" : 21,
+				"parent" : 16
+			},
+			{
+				"file" : 10,
+				"parent" : 17
+			},
+			{
+				"command" : 1,
+				"file" : 10,
+				"line" : 41,
+				"parent" : 18
+			},
+			{
+				"file" : 9,
+				"parent" : 19
+			},
+			{
+				"command" : 9,
+				"file" : 9,
+				"line" : 21,
+				"parent" : 20
+			},
+			{
+				"file" : 8,
+				"parent" : 21
+			},
+			{
+				"command" : 1,
+				"file" : 8,
+				"line" : 41,
+				"parent" : 22
+			},
+			{
+				"file" : 7,
+				"parent" : 23
+			},
+			{
+				"command" : 1,
+				"file" : 7,
+				"line" : 9,
+				"parent" : 24
+			},
+			{
+				"file" : 6,
+				"parent" : 25
+			},
+			{
+				"command" : 8,
+				"file" : 6,
+				"line" : 61,
+				"parent" : 26
+			},
+			{
+				"command" : 1,
+				"file" : 8,
+				"line" : 41,
+				"parent" : 22
+			},
+			{
+				"file" : 16,
+				"parent" : 28
+			},
+			{
+				"command" : 9,
+				"file" : 16,
+				"line" : 21,
+				"parent" : 29
+			},
+			{
+				"file" : 15,
+				"parent" : 30
+			},
+			{
+				"command" : 1,
+				"file" : 15,
+				"line" : 41,
+				"parent" : 31
+			},
+			{
+				"file" : 14,
+				"parent" : 32
+			},
+			{
+				"command" : 1,
+				"file" : 14,
+				"line" : 9,
+				"parent" : 33
+			},
+			{
+				"file" : 13,
+				"parent" : 34
+			},
+			{
+				"command" : 8,
+				"file" : 13,
+				"line" : 61,
+				"parent" : 35
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 48,
+				"parent" : 2
+			},
+			{
+				"file" : 17,
+				"parent" : 37
+			},
+			{
+				"command" : 10,
+				"file" : 17,
+				"line" : 139,
+				"parent" : 38
+			},
+			{
+				"command" : 11,
+				"file" : 3,
+				"line" : 9,
+				"parent" : 0
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 118,
+				"parent" : 4
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 48,
+				"parent" : 2
+			},
+			{
+				"file" : 20,
+				"parent" : 42
+			},
+			{
+				"command" : 9,
+				"file" : 20,
+				"line" : 21,
+				"parent" : 43
+			},
+			{
+				"file" : 19,
+				"parent" : 44
+			},
+			{
+				"command" : 1,
+				"file" : 19,
+				"line" : 41,
+				"parent" : 45
+			},
+			{
+				"file" : 18,
+				"parent" : 46
+			},
+			{
+				"command" : 12,
+				"file" : 18,
+				"line" : 25,
+				"parent" : 47
+			},
+			{
+				"command" : 8,
+				"file" : 0,
+				"line" : 92,
+				"parent" : 4
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-fPIC"
+				},
+				{
+					"backtrace" : 40,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 40,
+					"fragment" : "-Wextra"
+				},
+				{
+					"backtrace" : 40,
+					"fragment" : "-Wpedantic"
+				},
+				{
+					"fragment" : "-std=gnu++14"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 41,
+					"define" : "RCUTILS_ENABLE_FAULT_INJECTION"
+				},
+				{
+					"define" : "ROSIDL_TYPESUPPORT_CPP_BUILDING_DLL"
+				},
+				{
+					"backtrace" : 48,
+					"define" : "ROS_PACKAGE_NAME=\"vision_msgs\""
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 41,
+					"path" : "/home/stargate/slam_ws/build/vision_msgs/rosidl_generator_cpp"
+				},
+				{
+					"backtrace" : 41,
+					"isSystem" : true,
+					"path" : "/home/stargate/ros2_humble/install/std_msgs/include/std_msgs"
+				},
+				{
+					"backtrace" : 41,
+					"isSystem" : true,
+					"path" : "/home/stargate/ros2_humble/install/builtin_interfaces/include/builtin_interfaces"
+				},
+				{
+					"backtrace" : 41,
+					"isSystem" : true,
+					"path" : "/home/stargate/ros2_humble/install/rosidl_runtime_cpp/include/rosidl_runtime_cpp"
+				},
+				{
+					"backtrace" : 41,
+					"isSystem" : true,
+					"path" : "/home/stargate/ros2_humble/install/rosidl_runtime_c/include/rosidl_runtime_c"
+				},
+				{
+					"backtrace" : 41,
+					"isSystem" : true,
+					"path" : "/home/stargate/ros2_humble/install/rcutils/include/rcutils"
+				},
+				{
+					"backtrace" : 41,
+					"isSystem" : true,
+					"path" : "/home/stargate/ros2_humble/install/rosidl_typesupport_interface/include/rosidl_typesupport_interface"
+				},
+				{
+					"backtrace" : 41,
+					"isSystem" : true,
+					"path" : "/home/stargate/ros2_humble/install/geometry_msgs/include/geometry_msgs"
+				},
+				{
+					"backtrace" : 12,
+					"isSystem" : true,
+					"path" : "/home/stargate/ros2_humble/install/rosidl_typesupport_cpp/include/rosidl_typesupport_cpp"
+				},
+				{
+					"backtrace" : 12,
+					"isSystem" : true,
+					"path" : "/home/stargate/ros2_humble/install/rosidl_typesupport_c/include/rosidl_typesupport_c"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					49
+				],
+				"standard" : "14"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 39,
+			"id" : "vision_msgs__cpp::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "vision_msgs__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 8,
+				"path" : "lib"
+			},
+			{
+				"backtrace" : 8,
+				"path" : "lib"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "/home/stargate/slam_ws/install/vision_msgs"
+		}
+	},
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-Wl,-rpath,/home/stargate/ros2_humble/install/geometry_msgs/lib:/home/stargate/ros2_humble/install/std_msgs/lib:/home/stargate/ros2_humble/install/builtin_interfaces/lib:/home/stargate/ros2_humble/install/rosidl_typesupport_cpp/lib:/home/stargate/ros2_humble/install/rosidl_typesupport_c/lib:/home/stargate/ros2_humble/install/rcpputils/lib:/home/stargate/ros2_humble/install/rosidl_runtime_c/lib:/home/stargate/ros2_humble/install/rcutils/lib:",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "/home/stargate/ros2_humble/install/geometry_msgs/lib/libgeometry_msgs__rosidl_typesupport_cpp.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 10,
+				"fragment" : "/home/stargate/ros2_humble/install/std_msgs/lib/libstd_msgs__rosidl_typesupport_cpp.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 11,
+				"fragment" : "/home/stargate/ros2_humble/install/builtin_interfaces/lib/libbuiltin_interfaces__rosidl_typesupport_cpp.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 12,
+				"fragment" : "/home/stargate/ros2_humble/install/rosidl_typesupport_cpp/lib/librosidl_typesupport_cpp.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 12,
+				"fragment" : "/home/stargate/ros2_humble/install/rosidl_typesupport_c/lib/librosidl_typesupport_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 12,
+				"fragment" : "/home/stargate/ros2_humble/install/rosidl_runtime_c/lib/librosidl_runtime_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 27,
+				"fragment" : "/home/stargate/ros2_humble/install/rcutils/lib/librcutils.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 36,
+				"fragment" : "-ldl",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 36,
+				"fragment" : "-latomic",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-Wl,-rpath-link,/home/stargate/ros2_humble/install/rcpputils/lib",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "vision_msgs__rosidl_typesupport_cpp",
+	"nameOnDisk" : "libvision_msgs__rosidl_typesupport_cpp.so",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				16
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/stargate/slam_ws/build/vision_msgs/rosidl_typesupport_cpp/vision_msgs/msg/bounding_box2_d__type_support.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/stargate/slam_ws/build/vision_msgs/rosidl_typesupport_cpp/vision_msgs/msg/bounding_box2_d_array__type_support.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/stargate/slam_ws/build/vision_msgs/rosidl_typesupport_cpp/vision_msgs/msg/bounding_box3_d__type_support.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/stargate/slam_ws/build/vision_msgs/rosidl_typesupport_cpp/vision_msgs/msg/bounding_box3_d_array__type_support.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/stargate/slam_ws/build/vision_msgs/rosidl_typesupport_cpp/vision_msgs/msg/classification__type_support.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/stargate/slam_ws/build/vision_msgs/rosidl_typesupport_cpp/vision_msgs/msg/detection2_d_array__type_support.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/stargate/slam_ws/build/vision_msgs/rosidl_typesupport_cpp/vision_msgs/msg/detection2_d__type_support.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/stargate/slam_ws/build/vision_msgs/rosidl_typesupport_cpp/vision_msgs/msg/detection3_d_array__type_support.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/stargate/slam_ws/build/vision_msgs/rosidl_typesupport_cpp/vision_msgs/msg/detection3_d__type_support.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/stargate/slam_ws/build/vision_msgs/rosidl_typesupport_cpp/vision_msgs/msg/label_info__type_support.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/stargate/slam_ws/build/vision_msgs/rosidl_typesupport_cpp/vision_msgs/msg/object_hypothesis__type_support.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/stargate/slam_ws/build/vision_msgs/rosidl_typesupport_cpp/vision_msgs/msg/object_hypothesis_with_pose__type_support.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/stargate/slam_ws/build/vision_msgs/rosidl_typesupport_cpp/vision_msgs/msg/vision_class__type_support.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/stargate/slam_ws/build/vision_msgs/rosidl_typesupport_cpp/vision_msgs/msg/point2_d__type_support.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/stargate/slam_ws/build/vision_msgs/rosidl_typesupport_cpp/vision_msgs/msg/pose2_d__type_support.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/stargate/slam_ws/build/vision_msgs/rosidl_typesupport_cpp/vision_msgs/msg/vision_info__type_support.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/stargate/slam_ws/build/vision_msgs/rosidl_typesupport_cpp/vision_msgs/msg/bounding_box2_d__type_support.cpp.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "SHARED_LIBRARY"
+}

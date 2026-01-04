@@ -1,0 +1,26 @@
+[2.682s] Invoking command in '/home/stargate/slam_ws/build/slam_fusion': PYTHONPATH=/home/stargate/slam_ws/build/slam_fusion/prefix_override:/usr/local/lib/python3.11/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/stargate/slam_ws/install/slam_fusion/lib/python3.11/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/stargate/slam_ws/build/slam_fusion/build --no-deps symlink_data
+[3.565s] running develop
+[4.028s] running egg_info
+[4.028s] creating slam_fusion.egg-info
+[4.064s] writing slam_fusion.egg-info/PKG-INFO
+[4.064s] writing dependency_links to slam_fusion.egg-info/dependency_links.txt
+[4.065s] writing entry points to slam_fusion.egg-info/entry_points.txt
+[4.065s] writing requirements to slam_fusion.egg-info/requires.txt
+[4.065s] writing top-level names to slam_fusion.egg-info/top_level.txt
+[4.065s] writing manifest file 'slam_fusion.egg-info/SOURCES.txt'
+[4.139s] reading manifest file 'slam_fusion.egg-info/SOURCES.txt'
+[4.139s] adding license file 'LICENSE'
+[4.139s] writing manifest file 'slam_fusion.egg-info/SOURCES.txt'
+[4.183s] running build_ext
+[4.183s] Creating /home/stargate/slam_ws/install/slam_fusion/lib/python3.11/site-packages/slam-fusion.egg-link (link to .)
+[4.184s] Installing static_tf_broadcaster script to /home/stargate/slam_ws/install/slam_fusion/lib/slam_fusion
+[4.184s] 
+[4.186s] Installed /home/stargate/slam_ws/build/slam_fusion
+[4.186s] running symlink_data
+[4.186s] creating /home/stargate/slam_ws/install/slam_fusion/share/ament_index
+[4.186s] creating /home/stargate/slam_ws/install/slam_fusion/share/ament_index/resource_index
+[4.186s] creating /home/stargate/slam_ws/install/slam_fusion/share/ament_index/resource_index/packages
+[4.186s] symbolically linking /home/stargate/slam_ws/build/slam_fusion/resource/slam_fusion -> /home/stargate/slam_ws/install/slam_fusion/share/ament_index/resource_index/packages
+[4.186s] symbolically linking /home/stargate/slam_ws/build/slam_fusion/package.xml -> /home/stargate/slam_ws/install/slam_fusion/share/slam_fusion
+[4.186s] symbolically linking /home/stargate/slam_ws/build/slam_fusion/LICENSE -> /home/stargate/slam_ws/install/slam_fusion/share/slam_fusion
+[4.341s] Invoked command in '/home/stargate/slam_ws/build/slam_fusion' returned '0': PYTHONPATH=/home/stargate/slam_ws/build/slam_fusion/prefix_override:/usr/local/lib/python3.11/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/stargate/slam_ws/install/slam_fusion/lib/python3.11/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/stargate/slam_ws/build/slam_fusion/build --no-deps symlink_data

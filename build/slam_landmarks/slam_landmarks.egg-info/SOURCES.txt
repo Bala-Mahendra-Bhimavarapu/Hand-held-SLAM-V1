@@ -1,0 +1,15 @@
+LICENSE
+package.xml
+setup.cfg
+setup.py
+resource/slam_landmarks
+slam_landmarks/__init__.py
+slam_landmarks/landmark_3d_node.py
+slam_landmarks/yolo_detector_node.py
+slam_landmarks.egg-info/PKG-INFO
+slam_landmarks.egg-info/SOURCES.txt
+slam_landmarks.egg-info/dependency_links.txt
+slam_landmarks.egg-info/entry_points.txt
+slam_landmarks.egg-info/requires.txt
+slam_landmarks.egg-info/top_level.txt
+slam_landmarks.egg-info/zip-safe

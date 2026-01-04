@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: slam-fusion
+Version: 1.0.0
+Summary: SLAM sensor fusion and TF broadcasting
+Maintainer: Bala
+Maintainer-email: balamahendrareddybhi@gmail.com
+License: Apache-2.0
+License-File: LICENSE

@@ -1,0 +1,17 @@
+/home/stargate/slam_ws/install/slam_bringup/share/slam_bringup//launch/handheld_slam.launch.py
+/home/stargate/slam_ws/install/slam_bringup/share/slam_bringup//launch/sensors_only.launch.py
+/home/stargate/slam_ws/install/slam_bringup/share/ament_index/resource_index/package_run_dependencies/slam_bringup
+/home/stargate/slam_ws/install/slam_bringup/share/ament_index/resource_index/parent_prefix_path/slam_bringup
+/home/stargate/slam_ws/install/slam_bringup/share/slam_bringup/environment/ament_prefix_path.sh
+/home/stargate/slam_ws/install/slam_bringup/share/slam_bringup/environment/ament_prefix_path.dsv
+/home/stargate/slam_ws/install/slam_bringup/share/slam_bringup/environment/path.sh
+/home/stargate/slam_ws/install/slam_bringup/share/slam_bringup/environment/path.dsv
+/home/stargate/slam_ws/install/slam_bringup/share/slam_bringup/local_setup.bash
+/home/stargate/slam_ws/install/slam_bringup/share/slam_bringup/local_setup.sh
+/home/stargate/slam_ws/install/slam_bringup/share/slam_bringup/local_setup.zsh
+/home/stargate/slam_ws/install/slam_bringup/share/slam_bringup/local_setup.dsv
+/home/stargate/slam_ws/install/slam_bringup/share/slam_bringup/package.dsv
+/home/stargate/slam_ws/install/slam_bringup/share/ament_index/resource_index/packages/slam_bringup
+/home/stargate/slam_ws/install/slam_bringup/share/slam_bringup/cmake/slam_bringupConfig.cmake
+/home/stargate/slam_ws/install/slam_bringup/share/slam_bringup/cmake/slam_bringupConfig-version.cmake
+/home/stargate/slam_ws/install/slam_bringup/share/slam_bringup/package.xml

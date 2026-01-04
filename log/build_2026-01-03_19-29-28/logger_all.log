@@ -1,0 +1,451 @@
+[0.499s] DEBUG:colcon:Command line arguments: ['/usr/local/bin/colcon', 'build', '--symlink-install', '--packages-select', 'vision_msgs']
+[0.499s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['vision_msgs'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fff0a7726d0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fff09497f10>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fff09497f10>>)
+[0.892s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.892s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.892s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.892s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.892s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.892s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.892s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/stargate/slam_ws'
+[0.893s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.893s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.893s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.893s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.893s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.893s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.893s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.893s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.893s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.934s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.934s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.935s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.935s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.935s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.935s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.935s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.935s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.935s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.935s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.935s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.935s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.935s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.935s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.935s] Level 1:colcon.colcon_core.package_identification:_identify(models) by extensions ['ignore', 'ignore_ament_install']
+[0.935s] Level 1:colcon.colcon_core.package_identification:_identify(models) by extension 'ignore'
+[0.935s] Level 1:colcon.colcon_core.package_identification:_identify(models) by extension 'ignore_ament_install'
+[0.935s] Level 1:colcon.colcon_core.package_identification:_identify(models) by extensions ['colcon_pkg']
+[0.935s] Level 1:colcon.colcon_core.package_identification:_identify(models) by extension 'colcon_pkg'
+[0.936s] Level 1:colcon.colcon_core.package_identification:_identify(models) by extensions ['colcon_meta']
+[0.936s] Level 1:colcon.colcon_core.package_identification:_identify(models) by extension 'colcon_meta'
+[0.936s] Level 1:colcon.colcon_core.package_identification:_identify(models) by extensions ['ros']
+[0.936s] Level 1:colcon.colcon_core.package_identification:_identify(models) by extension 'ros'
+[0.936s] Level 1:colcon.colcon_core.package_identification:_identify(models) by extensions ['cmake', 'python']
+[0.936s] Level 1:colcon.colcon_core.package_identification:_identify(models) by extension 'cmake'
+[0.936s] Level 1:colcon.colcon_core.package_identification:_identify(models) by extension 'python'
+[0.936s] Level 1:colcon.colcon_core.package_identification:_identify(models) by extensions ['python_setup_py']
+[0.936s] Level 1:colcon.colcon_core.package_identification:_identify(models) by extension 'python_setup_py'
+[0.936s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.936s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.936s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.936s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.936s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.936s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.936s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.936s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.936s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.936s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.936s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.936s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.936s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.936s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.936s] Level 1:colcon.colcon_core.package_identification:_identify(src/Arducam_tof_camera) by extensions ['ignore', 'ignore_ament_install']
+[0.936s] Level 1:colcon.colcon_core.package_identification:_identify(src/Arducam_tof_camera) by extension 'ignore'
+[0.936s] Level 1:colcon.colcon_core.package_identification:_identify(src/Arducam_tof_camera) ignored
+[0.937s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common) by extensions ['ignore', 'ignore_ament_install']
+[0.937s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common) by extension 'ignore'
+[0.937s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common) by extension 'ignore_ament_install'
+[0.937s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common) by extensions ['colcon_pkg']
+[0.937s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common) by extension 'colcon_pkg'
+[0.937s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common) by extensions ['colcon_meta']
+[0.937s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common) by extension 'colcon_meta'
+[0.937s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common) by extensions ['ros']
+[0.937s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common) by extension 'ros'
+[0.937s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common) by extensions ['cmake', 'python']
+[0.937s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common) by extension 'cmake'
+[0.937s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common) by extension 'python'
+[0.937s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common) by extensions ['python_setup_py']
+[0.937s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common) by extension 'python_setup_py'
+[0.937s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/camera_calibration_parsers) by extensions ['ignore', 'ignore_ament_install']
+[0.937s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/camera_calibration_parsers) by extension 'ignore'
+[0.937s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/camera_calibration_parsers) by extension 'ignore_ament_install'
+[0.937s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/camera_calibration_parsers) by extensions ['colcon_pkg']
+[0.937s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/camera_calibration_parsers) by extension 'colcon_pkg'
+[0.937s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/camera_calibration_parsers) by extensions ['colcon_meta']
+[0.937s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/camera_calibration_parsers) by extension 'colcon_meta'
+[0.937s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/camera_calibration_parsers) by extensions ['ros']
+[0.937s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/camera_calibration_parsers) by extension 'ros'
+[0.940s] DEBUG:colcon.colcon_core.package_identification:Package 'src/image_common/camera_calibration_parsers' with type 'ros.ament_cmake' and name 'camera_calibration_parsers'
+[0.940s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/camera_info_manager) by extensions ['ignore', 'ignore_ament_install']
+[0.941s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/camera_info_manager) by extension 'ignore'
+[0.941s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/camera_info_manager) by extension 'ignore_ament_install'
+[0.941s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/camera_info_manager) by extensions ['colcon_pkg']
+[0.941s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/camera_info_manager) by extension 'colcon_pkg'
+[0.941s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/camera_info_manager) by extensions ['colcon_meta']
+[0.941s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/camera_info_manager) by extension 'colcon_meta'
+[0.941s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/camera_info_manager) by extensions ['ros']
+[0.941s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/camera_info_manager) by extension 'ros'
+[0.942s] DEBUG:colcon.colcon_core.package_identification:Package 'src/image_common/camera_info_manager' with type 'ros.ament_cmake' and name 'camera_info_manager'
+[0.942s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/camera_info_manager_py) by extensions ['ignore', 'ignore_ament_install']
+[0.942s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/camera_info_manager_py) by extension 'ignore'
+[0.942s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/camera_info_manager_py) by extension 'ignore_ament_install'
+[0.942s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/camera_info_manager_py) by extensions ['colcon_pkg']
+[0.942s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/camera_info_manager_py) by extension 'colcon_pkg'
+[0.942s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/camera_info_manager_py) by extensions ['colcon_meta']
+[0.942s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/camera_info_manager_py) by extension 'colcon_meta'
+[0.942s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/camera_info_manager_py) by extensions ['ros']
+[0.942s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/camera_info_manager_py) by extension 'ros'
+[0.943s] DEBUG:colcon.colcon_core.package_identification:Package 'src/image_common/camera_info_manager_py' with type 'ros.ament_python' and name 'camera_info_manager_py'
+[0.943s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/image_common) by extensions ['ignore', 'ignore_ament_install']
+[0.943s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/image_common) by extension 'ignore'
+[0.943s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/image_common) by extension 'ignore_ament_install'
+[0.943s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/image_common) by extensions ['colcon_pkg']
+[0.943s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/image_common) by extension 'colcon_pkg'
+[0.943s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/image_common) by extensions ['colcon_meta']
+[0.943s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/image_common) by extension 'colcon_meta'
+[0.943s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/image_common) by extensions ['ros']
+[0.943s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/image_common) by extension 'ros'
+[0.944s] DEBUG:colcon.colcon_core.package_identification:Package 'src/image_common/image_common' with type 'ros.ament_cmake' and name 'image_common'
+[0.944s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/image_transport) by extensions ['ignore', 'ignore_ament_install']
+[0.944s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/image_transport) by extension 'ignore'
+[0.944s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/image_transport) by extension 'ignore_ament_install'
+[0.944s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/image_transport) by extensions ['colcon_pkg']
+[0.944s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/image_transport) by extension 'colcon_pkg'
+[0.944s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/image_transport) by extensions ['colcon_meta']
+[0.944s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/image_transport) by extension 'colcon_meta'
+[0.944s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/image_transport) by extensions ['ros']
+[0.944s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/image_transport) by extension 'ros'
+[0.946s] DEBUG:colcon.colcon_core.package_identification:Package 'src/image_common/image_transport' with type 'ros.ament_cmake' and name 'image_transport'
+[0.947s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/polled_camera) by extensions ['ignore', 'ignore_ament_install']
+[0.947s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/polled_camera) by extension 'ignore'
+[0.947s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/polled_camera) ignored
+[0.947s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools) by extensions ['ignore', 'ignore_ament_install']
+[0.947s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools) by extension 'ignore'
+[0.947s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools) by extension 'ignore_ament_install'
+[0.947s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools) by extensions ['colcon_pkg']
+[0.947s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools) by extension 'colcon_pkg'
+[0.947s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools) by extensions ['colcon_meta']
+[0.947s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools) by extension 'colcon_meta'
+[0.947s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools) by extensions ['ros']
+[0.947s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools) by extension 'ros'
+[0.947s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools) by extensions ['cmake', 'python']
+[0.947s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools) by extension 'cmake'
+[0.947s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools) by extension 'python'
+[0.947s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools) by extensions ['python_setup_py']
+[0.947s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools) by extension 'python_setup_py'
+[0.947s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools/imu_complementary_filter) by extensions ['ignore', 'ignore_ament_install']
+[0.947s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools/imu_complementary_filter) by extension 'ignore'
+[0.947s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools/imu_complementary_filter) by extension 'ignore_ament_install'
+[0.947s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools/imu_complementary_filter) by extensions ['colcon_pkg']
+[0.947s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools/imu_complementary_filter) by extension 'colcon_pkg'
+[0.947s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools/imu_complementary_filter) by extensions ['colcon_meta']
+[0.948s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools/imu_complementary_filter) by extension 'colcon_meta'
+[0.948s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools/imu_complementary_filter) by extensions ['ros']
+[0.948s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools/imu_complementary_filter) by extension 'ros'
+[0.948s] DEBUG:colcon.colcon_core.package_identification:Package 'src/imu_tools/imu_complementary_filter' with type 'ros.ament_cmake' and name 'imu_complementary_filter'
+[0.948s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools/imu_filter_madgwick) by extensions ['ignore', 'ignore_ament_install']
+[0.948s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools/imu_filter_madgwick) by extension 'ignore'
+[0.948s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools/imu_filter_madgwick) by extension 'ignore_ament_install'
+[0.948s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools/imu_filter_madgwick) by extensions ['colcon_pkg']
+[0.949s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools/imu_filter_madgwick) by extension 'colcon_pkg'
+[0.949s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools/imu_filter_madgwick) by extensions ['colcon_meta']
+[0.949s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools/imu_filter_madgwick) by extension 'colcon_meta'
+[0.949s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools/imu_filter_madgwick) by extensions ['ros']
+[0.949s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools/imu_filter_madgwick) by extension 'ros'
+[0.950s] DEBUG:colcon.colcon_core.package_identification:Package 'src/imu_tools/imu_filter_madgwick' with type 'ros.ament_cmake' and name 'imu_filter_madgwick'
+[0.950s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools/imu_tools) by extensions ['ignore', 'ignore_ament_install']
+[0.950s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools/imu_tools) by extension 'ignore'
+[0.950s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools/imu_tools) by extension 'ignore_ament_install'
+[0.950s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools/imu_tools) by extensions ['colcon_pkg']
+[0.950s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools/imu_tools) by extension 'colcon_pkg'
+[0.950s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools/imu_tools) by extensions ['colcon_meta']
+[0.950s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools/imu_tools) by extension 'colcon_meta'
+[0.950s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools/imu_tools) by extensions ['ros']
+[0.950s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools/imu_tools) by extension 'ros'
+[0.951s] DEBUG:colcon.colcon_core.package_identification:Package 'src/imu_tools/imu_tools' with type 'ros.ament_cmake' and name 'imu_tools'
+[0.951s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools/rviz_imu_plugin) by extensions ['ignore', 'ignore_ament_install']
+[0.951s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools/rviz_imu_plugin) by extension 'ignore'
+[0.951s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools/rviz_imu_plugin) by extension 'ignore_ament_install'
+[0.951s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools/rviz_imu_plugin) by extensions ['colcon_pkg']
+[0.951s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools/rviz_imu_plugin) by extension 'colcon_pkg'
+[0.951s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools/rviz_imu_plugin) by extensions ['colcon_meta']
+[0.951s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools/rviz_imu_plugin) by extension 'colcon_meta'
+[0.951s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools/rviz_imu_plugin) by extensions ['ros']
+[0.951s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools/rviz_imu_plugin) by extension 'ros'
+[0.952s] DEBUG:colcon.colcon_core.package_identification:Package 'src/imu_tools/rviz_imu_plugin' with type 'ros.ament_cmake' and name 'rviz_imu_plugin'
+[0.952s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.952s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_bringup) by extension 'ignore'
+[0.952s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_bringup) by extension 'ignore_ament_install'
+[0.952s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_bringup) by extensions ['colcon_pkg']
+[0.952s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_bringup) by extension 'colcon_pkg'
+[0.952s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_bringup) by extensions ['colcon_meta']
+[0.952s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_bringup) by extension 'colcon_meta'
+[0.952s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_bringup) by extensions ['ros']
+[0.952s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_bringup) by extension 'ros'
+[0.953s] DEBUG:colcon.colcon_core.package_identification:Package 'src/slam_bringup' with type 'ros.ament_cmake' and name 'slam_bringup'
+[0.953s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_fusion) by extensions ['ignore', 'ignore_ament_install']
+[0.953s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_fusion) by extension 'ignore'
+[0.953s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_fusion) by extension 'ignore_ament_install'
+[0.953s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_fusion) by extensions ['colcon_pkg']
+[0.953s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_fusion) by extension 'colcon_pkg'
+[0.953s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_fusion) by extensions ['colcon_meta']
+[0.953s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_fusion) by extension 'colcon_meta'
+[0.953s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_fusion) by extensions ['ros']
+[0.953s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_fusion) by extension 'ros'
+[0.954s] DEBUG:colcon.colcon_core.package_identification:Package 'src/slam_fusion' with type 'ros.ament_python' and name 'slam_fusion'
+[0.954s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_landmarks) by extensions ['ignore', 'ignore_ament_install']
+[0.954s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_landmarks) by extension 'ignore'
+[0.954s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_landmarks) by extension 'ignore_ament_install'
+[0.954s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_landmarks) by extensions ['colcon_pkg']
+[0.954s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_landmarks) by extension 'colcon_pkg'
+[0.954s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_landmarks) by extensions ['colcon_meta']
+[0.954s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_landmarks) by extension 'colcon_meta'
+[0.954s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_landmarks) by extensions ['ros']
+[0.954s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_landmarks) by extension 'ros'
+[0.955s] DEBUG:colcon.colcon_core.package_identification:Package 'src/slam_landmarks' with type 'ros.ament_python' and name 'slam_landmarks'
+[0.955s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_sensors) by extensions ['ignore', 'ignore_ament_install']
+[0.955s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_sensors) by extension 'ignore'
+[0.955s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_sensors) by extension 'ignore_ament_install'
+[0.955s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_sensors) by extensions ['colcon_pkg']
+[0.955s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_sensors) by extension 'colcon_pkg'
+[0.955s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_sensors) by extensions ['colcon_meta']
+[0.955s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_sensors) by extension 'colcon_meta'
+[0.955s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_sensors) by extensions ['ros']
+[0.956s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_sensors) by extension 'ros'
+[0.956s] DEBUG:colcon.colcon_core.package_identification:Package 'src/slam_sensors' with type 'ros.ament_python' and name 'slam_sensors'
+[0.956s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.956s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_msgs) by extension 'ignore'
+[0.957s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_msgs) by extension 'ignore_ament_install'
+[0.957s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_msgs) by extensions ['colcon_pkg']
+[0.957s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_msgs) by extension 'colcon_pkg'
+[0.957s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_msgs) by extensions ['colcon_meta']
+[0.957s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_msgs) by extension 'colcon_meta'
+[0.957s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_msgs) by extensions ['ros']
+[0.957s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_msgs) by extension 'ros'
+[0.957s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_msgs) by extensions ['cmake', 'python']
+[0.957s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_msgs) by extension 'cmake'
+[0.957s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_msgs) by extension 'python'
+[0.957s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_msgs) by extensions ['python_setup_py']
+[0.957s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_msgs) by extension 'python_setup_py'
+[0.957s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_msgs/vision_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.957s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_msgs/vision_msgs) by extension 'ignore'
+[0.957s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_msgs/vision_msgs) by extension 'ignore_ament_install'
+[0.957s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_msgs/vision_msgs) by extensions ['colcon_pkg']
+[0.957s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_msgs/vision_msgs) by extension 'colcon_pkg'
+[0.957s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_msgs/vision_msgs) by extensions ['colcon_meta']
+[0.957s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_msgs/vision_msgs) by extension 'colcon_meta'
+[0.957s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_msgs/vision_msgs) by extensions ['ros']
+[0.957s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_msgs/vision_msgs) by extension 'ros'
+[0.958s] DEBUG:colcon.colcon_core.package_identification:Package 'src/vision_msgs/vision_msgs' with type 'ros.ament_cmake' and name 'vision_msgs'
+[0.958s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_msgs/vision_msgs_rviz_plugins) by extensions ['ignore', 'ignore_ament_install']
+[0.958s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_msgs/vision_msgs_rviz_plugins) by extension 'ignore'
+[0.958s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_msgs/vision_msgs_rviz_plugins) by extension 'ignore_ament_install'
+[0.958s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_msgs/vision_msgs_rviz_plugins) by extensions ['colcon_pkg']
+[0.958s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_msgs/vision_msgs_rviz_plugins) by extension 'colcon_pkg'
+[0.958s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_msgs/vision_msgs_rviz_plugins) by extensions ['colcon_meta']
+[0.958s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_msgs/vision_msgs_rviz_plugins) by extension 'colcon_meta'
+[0.958s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_msgs/vision_msgs_rviz_plugins) by extensions ['ros']
+[0.958s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_msgs/vision_msgs_rviz_plugins) by extension 'ros'
+[0.959s] DEBUG:colcon.colcon_core.package_identification:Package 'src/vision_msgs/vision_msgs_rviz_plugins' with type 'ros.ament_cmake' and name 'vision_msgs_rviz_plugins'
+[0.959s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extensions ['ignore', 'ignore_ament_install']
+[0.959s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extension 'ignore'
+[0.959s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extension 'ignore_ament_install'
+[0.959s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extensions ['colcon_pkg']
+[0.960s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extension 'colcon_pkg'
+[0.960s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extensions ['colcon_meta']
+[0.960s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extension 'colcon_meta'
+[0.960s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extensions ['ros']
+[0.960s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extension 'ros'
+[0.960s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extensions ['cmake', 'python']
+[0.960s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extension 'cmake'
+[0.960s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extension 'python'
+[0.960s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extensions ['python_setup_py']
+[0.960s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extension 'python_setup_py'
+[0.960s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/cv_bridge) by extensions ['ignore', 'ignore_ament_install']
+[0.960s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/cv_bridge) by extension 'ignore'
+[0.960s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/cv_bridge) by extension 'ignore_ament_install'
+[0.960s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/cv_bridge) by extensions ['colcon_pkg']
+[0.960s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/cv_bridge) by extension 'colcon_pkg'
+[0.960s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/cv_bridge) by extensions ['colcon_meta']
+[0.960s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/cv_bridge) by extension 'colcon_meta'
+[0.960s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/cv_bridge) by extensions ['ros']
+[0.960s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/cv_bridge) by extension 'ros'
+[0.961s] DEBUG:colcon.colcon_core.package_identification:Package 'src/vision_opencv/cv_bridge' with type 'ros.ament_cmake' and name 'cv_bridge'
+[0.961s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/image_geometry) by extensions ['ignore', 'ignore_ament_install']
+[0.961s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/image_geometry) by extension 'ignore'
+[0.961s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/image_geometry) by extension 'ignore_ament_install'
+[0.961s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/image_geometry) by extensions ['colcon_pkg']
+[0.961s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/image_geometry) by extension 'colcon_pkg'
+[0.961s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/image_geometry) by extensions ['colcon_meta']
+[0.961s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/image_geometry) by extension 'colcon_meta'
+[0.961s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/image_geometry) by extensions ['ros']
+[0.961s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/image_geometry) by extension 'ros'
+[0.962s] DEBUG:colcon.colcon_core.package_identification:Package 'src/vision_opencv/image_geometry' with type 'ros.ament_cmake' and name 'image_geometry'
+[0.962s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/opencv_tests) by extensions ['ignore', 'ignore_ament_install']
+[0.962s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/opencv_tests) by extension 'ignore'
+[0.962s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/opencv_tests) by extension 'ignore_ament_install'
+[0.962s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/opencv_tests) by extensions ['colcon_pkg']
+[0.962s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/opencv_tests) by extension 'colcon_pkg'
+[0.962s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/opencv_tests) by extensions ['colcon_meta']
+[0.962s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/opencv_tests) by extension 'colcon_meta'
+[0.962s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/opencv_tests) by extensions ['ros']
+[0.962s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/opencv_tests) by extension 'ros'
+[0.963s] DEBUG:colcon.colcon_core.package_identification:Package 'src/vision_opencv/opencv_tests' with type 'ros.ament_python' and name 'opencv_tests'
+[0.963s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/vision_opencv) by extensions ['ignore', 'ignore_ament_install']
+[0.963s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/vision_opencv) by extension 'ignore'
+[0.963s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/vision_opencv) by extension 'ignore_ament_install'
+[0.963s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/vision_opencv) by extensions ['colcon_pkg']
+[0.963s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/vision_opencv) by extension 'colcon_pkg'
+[0.963s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/vision_opencv) by extensions ['colcon_meta']
+[0.963s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/vision_opencv) by extension 'colcon_meta'
+[0.963s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/vision_opencv) by extensions ['ros']
+[0.963s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/vision_opencv) by extension 'ros'
+[0.964s] DEBUG:colcon.colcon_core.package_identification:Package 'src/vision_opencv/vision_opencv' with type 'ros.ament_cmake' and name 'vision_opencv'
+[0.964s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.964s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.964s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.964s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.964s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.014s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'camera_calibration_parsers' in 'src/image_common/camera_calibration_parsers'
+[1.014s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'camera_info_manager_py' in 'src/image_common/camera_info_manager_py'
+[1.014s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'cv_bridge' in 'src/vision_opencv/cv_bridge'
+[1.014s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'image_geometry' in 'src/vision_opencv/image_geometry'
+[1.014s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'image_transport' in 'src/image_common/image_transport'
+[1.014s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'imu_complementary_filter' in 'src/imu_tools/imu_complementary_filter'
+[1.014s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'imu_filter_madgwick' in 'src/imu_tools/imu_filter_madgwick'
+[1.014s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'rviz_imu_plugin' in 'src/imu_tools/rviz_imu_plugin'
+[1.014s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'slam_fusion' in 'src/slam_fusion'
+[1.014s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'camera_info_manager' in 'src/image_common/camera_info_manager'
+[1.014s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'imu_tools' in 'src/imu_tools/imu_tools'
+[1.015s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'opencv_tests' in 'src/vision_opencv/opencv_tests'
+[1.015s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'slam_landmarks' in 'src/slam_landmarks'
+[1.015s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'slam_sensors' in 'src/slam_sensors'
+[1.015s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'vision_msgs_rviz_plugins' in 'src/vision_msgs/vision_msgs_rviz_plugins'
+[1.015s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'vision_opencv' in 'src/vision_opencv/vision_opencv'
+[1.015s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'image_common' in 'src/image_common/image_common'
+[1.015s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'slam_bringup' in 'src/slam_bringup'
+[1.015s] Level 5:colcon.colcon_core.verb:set package 'vision_msgs' build argument 'cmake_args' from command line to 'None'
+[1.015s] Level 5:colcon.colcon_core.verb:set package 'vision_msgs' build argument 'cmake_target' from command line to 'None'
+[1.015s] Level 5:colcon.colcon_core.verb:set package 'vision_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.015s] Level 5:colcon.colcon_core.verb:set package 'vision_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[1.015s] Level 5:colcon.colcon_core.verb:set package 'vision_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[1.015s] Level 5:colcon.colcon_core.verb:set package 'vision_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[1.015s] Level 5:colcon.colcon_core.verb:set package 'vision_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[1.015s] Level 5:colcon.colcon_core.verb:set package 'vision_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[1.015s] Level 5:colcon.colcon_core.verb:set package 'vision_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.015s] DEBUG:colcon.colcon_core.verb:Building package 'vision_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/stargate/slam_ws/build/vision_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/stargate/slam_ws/install/vision_msgs', 'merge_install': False, 'path': '/home/stargate/slam_ws/src/vision_msgs/vision_msgs', 'symlink_install': True, 'test_result_base': None}
+[1.015s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.017s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.017s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/stargate/slam_ws/src/vision_msgs/vision_msgs' with build type 'ament_cmake'
+[1.017s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/stargate/slam_ws/src/vision_msgs/vision_msgs'
+[1.024s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.024s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.025s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.026s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/stargate/slam_ws/install/slam_bringup' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.027s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/stargate/slam_ws/install/imu_tools' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.027s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/stargate/slam_ws/install/rviz_imu_plugin' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.027s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/stargate/slam_ws/install/image_transport' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.027s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/stargate/slam_ws/install/vision_opencv' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.027s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/stargate/slam_ws/install/slam_sensors' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.027s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/stargate/slam_ws/install/slam_landmarks' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.027s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/stargate/slam_ws/install/vision_msgs' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.027s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/stargate/slam_ws/install/slam_fusion' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.027s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/stargate/slam_ws/install/opencv_tests' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.027s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/stargate/slam_ws/install/imu_filter_madgwick' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.027s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/stargate/slam_ws/install/imu_complementary_filter' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.027s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/stargate/slam_ws/install/image_geometry' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.027s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/stargate/slam_ws/install/cv_bridge' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.027s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/stargate/slam_ws/install/camera_info_manager_py' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.028s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/stargate/slam_ws/install/camera_info_manager' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.028s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/stargate/slam_ws/install/camera_calibration_parsers' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.037s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/stargate/slam_ws/install/slam_bringup' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[1.037s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/stargate/slam_ws/install/imu_tools' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[1.037s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/stargate/slam_ws/install/rviz_imu_plugin' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[1.037s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/stargate/slam_ws/install/image_transport' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[1.037s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/stargate/slam_ws/install/vision_opencv' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[1.037s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/stargate/slam_ws/install/vision_msgs' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[1.037s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/stargate/slam_ws/install/imu_filter_madgwick' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[1.037s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/stargate/slam_ws/install/imu_complementary_filter' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[1.037s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/stargate/slam_ws/install/image_geometry' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[1.037s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/stargate/slam_ws/install/cv_bridge' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[1.037s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/stargate/slam_ws/install/camera_info_manager' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[1.038s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/stargate/slam_ws/install/camera_calibration_parsers' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[1.059s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/stargate/slam_ws/build/vision_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/stargate/slam_ws/install/slam_sensors:/home/stargate/slam_ws/install/slam_landmarks:/home/stargate/slam_ws/install/slam_fusion:/home/stargate/slam_ws/install/opencv_tests:/home/stargate/slam_ws/install/camera_info_manager_py:/home/stargate/ros2_humble/install/rqt_bag_plugins:/home/stargate/ros2_humble/install/rqt_bag:/home/stargate/ros2_humble/install/launch_testing_examples:/home/stargate/ros2_humble/install/ros2bag:/home/stargate/ros2_humble/install/tracetools_test:/home/stargate/ros2_humble/install/tracetools_launch:/home/stargate/ros2_humble/install/topic_monitor:/home/stargate/ros2_humble/install/tf2_tools:/home/stargate/ros2_humble/install/examples_tf2_py:/home/stargate/ros2_humble/install/tf2_ros_py:/home/stargate/ros2_humble/install/sros2:/home/stargate/ros2_humble/install/rqt_topic:/home/stargate/ros2_humble/install/rqt_srv:/home/stargate/ros2_humble/install/rqt_shell:/home/stargate/ros2_humble/install/rqt_service_caller:/home/stargate/ros2_humble/install/rqt_reconfigure:/home/stargate/ros2_humble/install/rqt_py_console:/home/stargate/ros2_humble/install/rqt_publisher:/home/stargate/ros2_humble/install/rqt_plot:/home/stargate/ros2_humble/install/rqt_action:/home/stargate/ros2_humble/install/rqt_msg:/home/stargate/ros2_humble/install/rqt_console:/home/stargate/ros2_humble/install/rqt:/home/stargate/ros2_humble/install/rqt_graph:/home/stargate/ros2_humble/install/rqt_gui_py:/home/stargate/ros2_humble/install/rqt_gui:/home/stargate/ros2_humble/install/ros2trace:/home/stargate/ros2_humble/install/ros2topic:/home/stargate/ros2_humble/install/ros2test:/home/stargate/ros2_humble/install/ros2component:/home/stargate/ros2_humble/install/ros2param:/home/stargate/ros2_humble/install/ros2lifecycle:/home/stargate/ros2_humble/install/ros2service:/home/stargate/ros2_humble/install/ros2run:/home/stargate/ros2_humble/install/ros2plugin:/home/stargate/ros2_humble/install/ros2launch:/home/stargate/ros2_humble/install/ros2pkg:/home/stargate/ros2_humble/install/ros2node:/home/stargate/ros2_humble/install/ros2multicast:/home/stargate/ros2_humble/install/ros2interface:/home/stargate/ros2_humble/install/ros2doctor:/home/stargate/ros2_humble/install/ros2action:/home/stargate/ros2_humble/install/ros2cli:/home/stargate/ros2_humble/install/quality_of_service_demo_py:/home/stargate/ros2_humble/install/lifecycle_py:/home/stargate/ros2_humble/install/launch_testing_ros:/home/stargate/ros2_humble/install/launch_ros:/home/stargate/ros2_humble/install/examples_rclpy_pointcloud_publisher:/home/stargate/ros2_humble/install/examples_rclpy_minimal_subscriber:/home/stargate/ros2_humble/install/examples_rclpy_minimal_service:/home/stargate/ros2_humble/install/examples_rclpy_minimal_publisher:/home/stargate/ros2_humble/install/examples_rclpy_minimal_client:/home/stargate/ros2_humble/install/examples_rclpy_minimal_action_server:/home/stargate/ros2_humble/install/examples_rclpy_minimal_action_client:/home/stargate/ros2_humble/install/examples_rclpy_guard_conditions:/home/stargate/ros2_humble/install/examples_rclpy_executors:/home/stargate/ros2_humble/install/demo_nodes_py:/home/stargate/ros2_humble/install/camera_info_manager_py:/home/stargate/ros2_humble/install/action_tutorials_py:/home/stargate/ros2_humble/install/ament_uncrustify:/home/stargate/ros2_humble/install/tracetools_trace:/home/stargate/ros2_humble/install/tracetools_read:/home/stargate/ros2_humble/install/test_tracetools_launch:/home/stargate/ros2_humble/install/test_launch_ros:/home/stargate/ros2_humble/install/sensor_msgs_py:/home/stargate/ros2_humble/install/rpyutils:/home/stargate/ros2_humble/install/rosidl_runtime_py:/home/stargate/ros2_humble/install/rosidl_cli:/home/stargate/ros2_humble/install/launch_pytest:/home/stargate/ros2_humble/install/launch_testing:/home/stargate/ros2_humble/install/launch_yaml:/home/stargate/ros2_humble/install/launch_xml:/home/stargate/ros2_humble/install/launch:/home/stargate/ros2_humble/install/osrf_pycommon:/home/stargate/ros2_humble/install/domain_coordinator:/home/stargate/ros2_humble/install/ament_xmllint:/home/stargate/ros2_humble/install/ament_pyflakes:/home/stargate/ros2_humble/install/ament_pycodestyle:/home/stargate/ros2_humble/install/ament_pep257:/home/stargate/ros2_humble/install/ament_pclint:/home/stargate/ros2_humble/install/ament_package:/home/stargate/ros2_humble/install/ament_mypy:/home/stargate/ros2_humble/install/ament_lint_cmake:/home/stargate/ros2_humble/install/ament_flake8:/home/stargate/ros2_humble/install/ament_copyright:/home/stargate/ros2_humble/install/ament_lint:/home/stargate/ros2_humble/install/ament_index_python:/home/stargate/ros2_humble/install/ament_cpplint:/home/stargate/ros2_humble/install/ament_cppcheck:/home/stargate/ros2_humble/install/ament_clang_tidy:/home/stargate/ros2_humble/install/ament_clang_format /usr/bin/cmake /home/stargate/slam_ws/src/vision_msgs/vision_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/stargate/slam_ws/install/vision_msgs
+[8.021s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/stargate/slam_ws/build/vision_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/stargate/slam_ws/install/slam_sensors:/home/stargate/slam_ws/install/slam_landmarks:/home/stargate/slam_ws/install/slam_fusion:/home/stargate/slam_ws/install/opencv_tests:/home/stargate/slam_ws/install/camera_info_manager_py:/home/stargate/ros2_humble/install/rqt_bag_plugins:/home/stargate/ros2_humble/install/rqt_bag:/home/stargate/ros2_humble/install/launch_testing_examples:/home/stargate/ros2_humble/install/ros2bag:/home/stargate/ros2_humble/install/tracetools_test:/home/stargate/ros2_humble/install/tracetools_launch:/home/stargate/ros2_humble/install/topic_monitor:/home/stargate/ros2_humble/install/tf2_tools:/home/stargate/ros2_humble/install/examples_tf2_py:/home/stargate/ros2_humble/install/tf2_ros_py:/home/stargate/ros2_humble/install/sros2:/home/stargate/ros2_humble/install/rqt_topic:/home/stargate/ros2_humble/install/rqt_srv:/home/stargate/ros2_humble/install/rqt_shell:/home/stargate/ros2_humble/install/rqt_service_caller:/home/stargate/ros2_humble/install/rqt_reconfigure:/home/stargate/ros2_humble/install/rqt_py_console:/home/stargate/ros2_humble/install/rqt_publisher:/home/stargate/ros2_humble/install/rqt_plot:/home/stargate/ros2_humble/install/rqt_action:/home/stargate/ros2_humble/install/rqt_msg:/home/stargate/ros2_humble/install/rqt_console:/home/stargate/ros2_humble/install/rqt:/home/stargate/ros2_humble/install/rqt_graph:/home/stargate/ros2_humble/install/rqt_gui_py:/home/stargate/ros2_humble/install/rqt_gui:/home/stargate/ros2_humble/install/ros2trace:/home/stargate/ros2_humble/install/ros2topic:/home/stargate/ros2_humble/install/ros2test:/home/stargate/ros2_humble/install/ros2component:/home/stargate/ros2_humble/install/ros2param:/home/stargate/ros2_humble/install/ros2lifecycle:/home/stargate/ros2_humble/install/ros2service:/home/stargate/ros2_humble/install/ros2run:/home/stargate/ros2_humble/install/ros2plugin:/home/stargate/ros2_humble/install/ros2launch:/home/stargate/ros2_humble/install/ros2pkg:/home/stargate/ros2_humble/install/ros2node:/home/stargate/ros2_humble/install/ros2multicast:/home/stargate/ros2_humble/install/ros2interface:/home/stargate/ros2_humble/install/ros2doctor:/home/stargate/ros2_humble/install/ros2action:/home/stargate/ros2_humble/install/ros2cli:/home/stargate/ros2_humble/install/quality_of_service_demo_py:/home/stargate/ros2_humble/install/lifecycle_py:/home/stargate/ros2_humble/install/launch_testing_ros:/home/stargate/ros2_humble/install/launch_ros:/home/stargate/ros2_humble/install/examples_rclpy_pointcloud_publisher:/home/stargate/ros2_humble/install/examples_rclpy_minimal_subscriber:/home/stargate/ros2_humble/install/examples_rclpy_minimal_service:/home/stargate/ros2_humble/install/examples_rclpy_minimal_publisher:/home/stargate/ros2_humble/install/examples_rclpy_minimal_client:/home/stargate/ros2_humble/install/examples_rclpy_minimal_action_server:/home/stargate/ros2_humble/install/examples_rclpy_minimal_action_client:/home/stargate/ros2_humble/install/examples_rclpy_guard_conditions:/home/stargate/ros2_humble/install/examples_rclpy_executors:/home/stargate/ros2_humble/install/demo_nodes_py:/home/stargate/ros2_humble/install/camera_info_manager_py:/home/stargate/ros2_humble/install/action_tutorials_py:/home/stargate/ros2_humble/install/ament_uncrustify:/home/stargate/ros2_humble/install/tracetools_trace:/home/stargate/ros2_humble/install/tracetools_read:/home/stargate/ros2_humble/install/test_tracetools_launch:/home/stargate/ros2_humble/install/test_launch_ros:/home/stargate/ros2_humble/install/sensor_msgs_py:/home/stargate/ros2_humble/install/rpyutils:/home/stargate/ros2_humble/install/rosidl_runtime_py:/home/stargate/ros2_humble/install/rosidl_cli:/home/stargate/ros2_humble/install/launch_pytest:/home/stargate/ros2_humble/install/launch_testing:/home/stargate/ros2_humble/install/launch_yaml:/home/stargate/ros2_humble/install/launch_xml:/home/stargate/ros2_humble/install/launch:/home/stargate/ros2_humble/install/osrf_pycommon:/home/stargate/ros2_humble/install/domain_coordinator:/home/stargate/ros2_humble/install/ament_xmllint:/home/stargate/ros2_humble/install/ament_pyflakes:/home/stargate/ros2_humble/install/ament_pycodestyle:/home/stargate/ros2_humble/install/ament_pep257:/home/stargate/ros2_humble/install/ament_pclint:/home/stargate/ros2_humble/install/ament_package:/home/stargate/ros2_humble/install/ament_mypy:/home/stargate/ros2_humble/install/ament_lint_cmake:/home/stargate/ros2_humble/install/ament_flake8:/home/stargate/ros2_humble/install/ament_copyright:/home/stargate/ros2_humble/install/ament_lint:/home/stargate/ros2_humble/install/ament_index_python:/home/stargate/ros2_humble/install/ament_cpplint:/home/stargate/ros2_humble/install/ament_cppcheck:/home/stargate/ros2_humble/install/ament_clang_tidy:/home/stargate/ros2_humble/install/ament_clang_format /usr/bin/cmake /home/stargate/slam_ws/src/vision_msgs/vision_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/stargate/slam_ws/install/vision_msgs
+[8.023s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/stargate/slam_ws/build/vision_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/stargate/slam_ws/install/slam_sensors:/home/stargate/slam_ws/install/slam_landmarks:/home/stargate/slam_ws/install/slam_fusion:/home/stargate/slam_ws/install/opencv_tests:/home/stargate/slam_ws/install/camera_info_manager_py:/home/stargate/ros2_humble/install/rqt_bag_plugins:/home/stargate/ros2_humble/install/rqt_bag:/home/stargate/ros2_humble/install/launch_testing_examples:/home/stargate/ros2_humble/install/ros2bag:/home/stargate/ros2_humble/install/tracetools_test:/home/stargate/ros2_humble/install/tracetools_launch:/home/stargate/ros2_humble/install/topic_monitor:/home/stargate/ros2_humble/install/tf2_tools:/home/stargate/ros2_humble/install/examples_tf2_py:/home/stargate/ros2_humble/install/tf2_ros_py:/home/stargate/ros2_humble/install/sros2:/home/stargate/ros2_humble/install/rqt_topic:/home/stargate/ros2_humble/install/rqt_srv:/home/stargate/ros2_humble/install/rqt_shell:/home/stargate/ros2_humble/install/rqt_service_caller:/home/stargate/ros2_humble/install/rqt_reconfigure:/home/stargate/ros2_humble/install/rqt_py_console:/home/stargate/ros2_humble/install/rqt_publisher:/home/stargate/ros2_humble/install/rqt_plot:/home/stargate/ros2_humble/install/rqt_action:/home/stargate/ros2_humble/install/rqt_msg:/home/stargate/ros2_humble/install/rqt_console:/home/stargate/ros2_humble/install/rqt:/home/stargate/ros2_humble/install/rqt_graph:/home/stargate/ros2_humble/install/rqt_gui_py:/home/stargate/ros2_humble/install/rqt_gui:/home/stargate/ros2_humble/install/ros2trace:/home/stargate/ros2_humble/install/ros2topic:/home/stargate/ros2_humble/install/ros2test:/home/stargate/ros2_humble/install/ros2component:/home/stargate/ros2_humble/install/ros2param:/home/stargate/ros2_humble/install/ros2lifecycle:/home/stargate/ros2_humble/install/ros2service:/home/stargate/ros2_humble/install/ros2run:/home/stargate/ros2_humble/install/ros2plugin:/home/stargate/ros2_humble/install/ros2launch:/home/stargate/ros2_humble/install/ros2pkg:/home/stargate/ros2_humble/install/ros2node:/home/stargate/ros2_humble/install/ros2multicast:/home/stargate/ros2_humble/install/ros2interface:/home/stargate/ros2_humble/install/ros2doctor:/home/stargate/ros2_humble/install/ros2action:/home/stargate/ros2_humble/install/ros2cli:/home/stargate/ros2_humble/install/quality_of_service_demo_py:/home/stargate/ros2_humble/install/lifecycle_py:/home/stargate/ros2_humble/install/launch_testing_ros:/home/stargate/ros2_humble/install/launch_ros:/home/stargate/ros2_humble/install/examples_rclpy_pointcloud_publisher:/home/stargate/ros2_humble/install/examples_rclpy_minimal_subscriber:/home/stargate/ros2_humble/install/examples_rclpy_minimal_service:/home/stargate/ros2_humble/install/examples_rclpy_minimal_publisher:/home/stargate/ros2_humble/install/examples_rclpy_minimal_client:/home/stargate/ros2_humble/install/examples_rclpy_minimal_action_server:/home/stargate/ros2_humble/install/examples_rclpy_minimal_action_client:/home/stargate/ros2_humble/install/examples_rclpy_guard_conditions:/home/stargate/ros2_humble/install/examples_rclpy_executors:/home/stargate/ros2_humble/install/demo_nodes_py:/home/stargate/ros2_humble/install/camera_info_manager_py:/home/stargate/ros2_humble/install/action_tutorials_py:/home/stargate/ros2_humble/install/ament_uncrustify:/home/stargate/ros2_humble/install/tracetools_trace:/home/stargate/ros2_humble/install/tracetools_read:/home/stargate/ros2_humble/install/test_tracetools_launch:/home/stargate/ros2_humble/install/test_launch_ros:/home/stargate/ros2_humble/install/sensor_msgs_py:/home/stargate/ros2_humble/install/rpyutils:/home/stargate/ros2_humble/install/rosidl_runtime_py:/home/stargate/ros2_humble/install/rosidl_cli:/home/stargate/ros2_humble/install/launch_pytest:/home/stargate/ros2_humble/install/launch_testing:/home/stargate/ros2_humble/install/launch_yaml:/home/stargate/ros2_humble/install/launch_xml:/home/stargate/ros2_humble/install/launch:/home/stargate/ros2_humble/install/osrf_pycommon:/home/stargate/ros2_humble/install/domain_coordinator:/home/stargate/ros2_humble/install/ament_xmllint:/home/stargate/ros2_humble/install/ament_pyflakes:/home/stargate/ros2_humble/install/ament_pycodestyle:/home/stargate/ros2_humble/install/ament_pep257:/home/stargate/ros2_humble/install/ament_pclint:/home/stargate/ros2_humble/install/ament_package:/home/stargate/ros2_humble/install/ament_mypy:/home/stargate/ros2_humble/install/ament_lint_cmake:/home/stargate/ros2_humble/install/ament_flake8:/home/stargate/ros2_humble/install/ament_copyright:/home/stargate/ros2_humble/install/ament_lint:/home/stargate/ros2_humble/install/ament_index_python:/home/stargate/ros2_humble/install/ament_cpplint:/home/stargate/ros2_humble/install/ament_cppcheck:/home/stargate/ros2_humble/install/ament_clang_tidy:/home/stargate/ros2_humble/install/ament_clang_format /usr/bin/cmake --build /home/stargate/slam_ws/build/vision_msgs -- -j4 -l4
+[33.390s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/stargate/slam_ws/build/vision_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/stargate/slam_ws/install/slam_sensors:/home/stargate/slam_ws/install/slam_landmarks:/home/stargate/slam_ws/install/slam_fusion:/home/stargate/slam_ws/install/opencv_tests:/home/stargate/slam_ws/install/camera_info_manager_py:/home/stargate/ros2_humble/install/rqt_bag_plugins:/home/stargate/ros2_humble/install/rqt_bag:/home/stargate/ros2_humble/install/launch_testing_examples:/home/stargate/ros2_humble/install/ros2bag:/home/stargate/ros2_humble/install/tracetools_test:/home/stargate/ros2_humble/install/tracetools_launch:/home/stargate/ros2_humble/install/topic_monitor:/home/stargate/ros2_humble/install/tf2_tools:/home/stargate/ros2_humble/install/examples_tf2_py:/home/stargate/ros2_humble/install/tf2_ros_py:/home/stargate/ros2_humble/install/sros2:/home/stargate/ros2_humble/install/rqt_topic:/home/stargate/ros2_humble/install/rqt_srv:/home/stargate/ros2_humble/install/rqt_shell:/home/stargate/ros2_humble/install/rqt_service_caller:/home/stargate/ros2_humble/install/rqt_reconfigure:/home/stargate/ros2_humble/install/rqt_py_console:/home/stargate/ros2_humble/install/rqt_publisher:/home/stargate/ros2_humble/install/rqt_plot:/home/stargate/ros2_humble/install/rqt_action:/home/stargate/ros2_humble/install/rqt_msg:/home/stargate/ros2_humble/install/rqt_console:/home/stargate/ros2_humble/install/rqt:/home/stargate/ros2_humble/install/rqt_graph:/home/stargate/ros2_humble/install/rqt_gui_py:/home/stargate/ros2_humble/install/rqt_gui:/home/stargate/ros2_humble/install/ros2trace:/home/stargate/ros2_humble/install/ros2topic:/home/stargate/ros2_humble/install/ros2test:/home/stargate/ros2_humble/install/ros2component:/home/stargate/ros2_humble/install/ros2param:/home/stargate/ros2_humble/install/ros2lifecycle:/home/stargate/ros2_humble/install/ros2service:/home/stargate/ros2_humble/install/ros2run:/home/stargate/ros2_humble/install/ros2plugin:/home/stargate/ros2_humble/install/ros2launch:/home/stargate/ros2_humble/install/ros2pkg:/home/stargate/ros2_humble/install/ros2node:/home/stargate/ros2_humble/install/ros2multicast:/home/stargate/ros2_humble/install/ros2interface:/home/stargate/ros2_humble/install/ros2doctor:/home/stargate/ros2_humble/install/ros2action:/home/stargate/ros2_humble/install/ros2cli:/home/stargate/ros2_humble/install/quality_of_service_demo_py:/home/stargate/ros2_humble/install/lifecycle_py:/home/stargate/ros2_humble/install/launch_testing_ros:/home/stargate/ros2_humble/install/launch_ros:/home/stargate/ros2_humble/install/examples_rclpy_pointcloud_publisher:/home/stargate/ros2_humble/install/examples_rclpy_minimal_subscriber:/home/stargate/ros2_humble/install/examples_rclpy_minimal_service:/home/stargate/ros2_humble/install/examples_rclpy_minimal_publisher:/home/stargate/ros2_humble/install/examples_rclpy_minimal_client:/home/stargate/ros2_humble/install/examples_rclpy_minimal_action_server:/home/stargate/ros2_humble/install/examples_rclpy_minimal_action_client:/home/stargate/ros2_humble/install/examples_rclpy_guard_conditions:/home/stargate/ros2_humble/install/examples_rclpy_executors:/home/stargate/ros2_humble/install/demo_nodes_py:/home/stargate/ros2_humble/install/camera_info_manager_py:/home/stargate/ros2_humble/install/action_tutorials_py:/home/stargate/ros2_humble/install/ament_uncrustify:/home/stargate/ros2_humble/install/tracetools_trace:/home/stargate/ros2_humble/install/tracetools_read:/home/stargate/ros2_humble/install/test_tracetools_launch:/home/stargate/ros2_humble/install/test_launch_ros:/home/stargate/ros2_humble/install/sensor_msgs_py:/home/stargate/ros2_humble/install/rpyutils:/home/stargate/ros2_humble/install/rosidl_runtime_py:/home/stargate/ros2_humble/install/rosidl_cli:/home/stargate/ros2_humble/install/launch_pytest:/home/stargate/ros2_humble/install/launch_testing:/home/stargate/ros2_humble/install/launch_yaml:/home/stargate/ros2_humble/install/launch_xml:/home/stargate/ros2_humble/install/launch:/home/stargate/ros2_humble/install/osrf_pycommon:/home/stargate/ros2_humble/install/domain_coordinator:/home/stargate/ros2_humble/install/ament_xmllint:/home/stargate/ros2_humble/install/ament_pyflakes:/home/stargate/ros2_humble/install/ament_pycodestyle:/home/stargate/ros2_humble/install/ament_pep257:/home/stargate/ros2_humble/install/ament_pclint:/home/stargate/ros2_humble/install/ament_package:/home/stargate/ros2_humble/install/ament_mypy:/home/stargate/ros2_humble/install/ament_lint_cmake:/home/stargate/ros2_humble/install/ament_flake8:/home/stargate/ros2_humble/install/ament_copyright:/home/stargate/ros2_humble/install/ament_lint:/home/stargate/ros2_humble/install/ament_index_python:/home/stargate/ros2_humble/install/ament_cpplint:/home/stargate/ros2_humble/install/ament_cppcheck:/home/stargate/ros2_humble/install/ament_clang_tidy:/home/stargate/ros2_humble/install/ament_clang_format /usr/bin/cmake --build /home/stargate/slam_ws/build/vision_msgs -- -j4 -l4
+[33.412s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/stargate/slam_ws/build/vision_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/stargate/slam_ws/install/slam_sensors:/home/stargate/slam_ws/install/slam_landmarks:/home/stargate/slam_ws/install/slam_fusion:/home/stargate/slam_ws/install/opencv_tests:/home/stargate/slam_ws/install/camera_info_manager_py:/home/stargate/ros2_humble/install/rqt_bag_plugins:/home/stargate/ros2_humble/install/rqt_bag:/home/stargate/ros2_humble/install/launch_testing_examples:/home/stargate/ros2_humble/install/ros2bag:/home/stargate/ros2_humble/install/tracetools_test:/home/stargate/ros2_humble/install/tracetools_launch:/home/stargate/ros2_humble/install/topic_monitor:/home/stargate/ros2_humble/install/tf2_tools:/home/stargate/ros2_humble/install/examples_tf2_py:/home/stargate/ros2_humble/install/tf2_ros_py:/home/stargate/ros2_humble/install/sros2:/home/stargate/ros2_humble/install/rqt_topic:/home/stargate/ros2_humble/install/rqt_srv:/home/stargate/ros2_humble/install/rqt_shell:/home/stargate/ros2_humble/install/rqt_service_caller:/home/stargate/ros2_humble/install/rqt_reconfigure:/home/stargate/ros2_humble/install/rqt_py_console:/home/stargate/ros2_humble/install/rqt_publisher:/home/stargate/ros2_humble/install/rqt_plot:/home/stargate/ros2_humble/install/rqt_action:/home/stargate/ros2_humble/install/rqt_msg:/home/stargate/ros2_humble/install/rqt_console:/home/stargate/ros2_humble/install/rqt:/home/stargate/ros2_humble/install/rqt_graph:/home/stargate/ros2_humble/install/rqt_gui_py:/home/stargate/ros2_humble/install/rqt_gui:/home/stargate/ros2_humble/install/ros2trace:/home/stargate/ros2_humble/install/ros2topic:/home/stargate/ros2_humble/install/ros2test:/home/stargate/ros2_humble/install/ros2component:/home/stargate/ros2_humble/install/ros2param:/home/stargate/ros2_humble/install/ros2lifecycle:/home/stargate/ros2_humble/install/ros2service:/home/stargate/ros2_humble/install/ros2run:/home/stargate/ros2_humble/install/ros2plugin:/home/stargate/ros2_humble/install/ros2launch:/home/stargate/ros2_humble/install/ros2pkg:/home/stargate/ros2_humble/install/ros2node:/home/stargate/ros2_humble/install/ros2multicast:/home/stargate/ros2_humble/install/ros2interface:/home/stargate/ros2_humble/install/ros2doctor:/home/stargate/ros2_humble/install/ros2action:/home/stargate/ros2_humble/install/ros2cli:/home/stargate/ros2_humble/install/quality_of_service_demo_py:/home/stargate/ros2_humble/install/lifecycle_py:/home/stargate/ros2_humble/install/launch_testing_ros:/home/stargate/ros2_humble/install/launch_ros:/home/stargate/ros2_humble/install/examples_rclpy_pointcloud_publisher:/home/stargate/ros2_humble/install/examples_rclpy_minimal_subscriber:/home/stargate/ros2_humble/install/examples_rclpy_minimal_service:/home/stargate/ros2_humble/install/examples_rclpy_minimal_publisher:/home/stargate/ros2_humble/install/examples_rclpy_minimal_client:/home/stargate/ros2_humble/install/examples_rclpy_minimal_action_server:/home/stargate/ros2_humble/install/examples_rclpy_minimal_action_client:/home/stargate/ros2_humble/install/examples_rclpy_guard_conditions:/home/stargate/ros2_humble/install/examples_rclpy_executors:/home/stargate/ros2_humble/install/demo_nodes_py:/home/stargate/ros2_humble/install/camera_info_manager_py:/home/stargate/ros2_humble/install/action_tutorials_py:/home/stargate/ros2_humble/install/ament_uncrustify:/home/stargate/ros2_humble/install/tracetools_trace:/home/stargate/ros2_humble/install/tracetools_read:/home/stargate/ros2_humble/install/test_tracetools_launch:/home/stargate/ros2_humble/install/test_launch_ros:/home/stargate/ros2_humble/install/sensor_msgs_py:/home/stargate/ros2_humble/install/rpyutils:/home/stargate/ros2_humble/install/rosidl_runtime_py:/home/stargate/ros2_humble/install/rosidl_cli:/home/stargate/ros2_humble/install/launch_pytest:/home/stargate/ros2_humble/install/launch_testing:/home/stargate/ros2_humble/install/launch_yaml:/home/stargate/ros2_humble/install/launch_xml:/home/stargate/ros2_humble/install/launch:/home/stargate/ros2_humble/install/osrf_pycommon:/home/stargate/ros2_humble/install/domain_coordinator:/home/stargate/ros2_humble/install/ament_xmllint:/home/stargate/ros2_humble/install/ament_pyflakes:/home/stargate/ros2_humble/install/ament_pycodestyle:/home/stargate/ros2_humble/install/ament_pep257:/home/stargate/ros2_humble/install/ament_pclint:/home/stargate/ros2_humble/install/ament_package:/home/stargate/ros2_humble/install/ament_mypy:/home/stargate/ros2_humble/install/ament_lint_cmake:/home/stargate/ros2_humble/install/ament_flake8:/home/stargate/ros2_humble/install/ament_copyright:/home/stargate/ros2_humble/install/ament_lint:/home/stargate/ros2_humble/install/ament_index_python:/home/stargate/ros2_humble/install/ament_cpplint:/home/stargate/ros2_humble/install/ament_cppcheck:/home/stargate/ros2_humble/install/ament_clang_tidy:/home/stargate/ros2_humble/install/ament_clang_format /usr/bin/cmake --install /home/stargate/slam_ws/build/vision_msgs
+[39.781s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vision_msgs)
+[39.784s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/stargate/slam_ws/build/vision_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/stargate/slam_ws/install/slam_sensors:/home/stargate/slam_ws/install/slam_landmarks:/home/stargate/slam_ws/install/slam_fusion:/home/stargate/slam_ws/install/opencv_tests:/home/stargate/slam_ws/install/camera_info_manager_py:/home/stargate/ros2_humble/install/rqt_bag_plugins:/home/stargate/ros2_humble/install/rqt_bag:/home/stargate/ros2_humble/install/launch_testing_examples:/home/stargate/ros2_humble/install/ros2bag:/home/stargate/ros2_humble/install/tracetools_test:/home/stargate/ros2_humble/install/tracetools_launch:/home/stargate/ros2_humble/install/topic_monitor:/home/stargate/ros2_humble/install/tf2_tools:/home/stargate/ros2_humble/install/examples_tf2_py:/home/stargate/ros2_humble/install/tf2_ros_py:/home/stargate/ros2_humble/install/sros2:/home/stargate/ros2_humble/install/rqt_topic:/home/stargate/ros2_humble/install/rqt_srv:/home/stargate/ros2_humble/install/rqt_shell:/home/stargate/ros2_humble/install/rqt_service_caller:/home/stargate/ros2_humble/install/rqt_reconfigure:/home/stargate/ros2_humble/install/rqt_py_console:/home/stargate/ros2_humble/install/rqt_publisher:/home/stargate/ros2_humble/install/rqt_plot:/home/stargate/ros2_humble/install/rqt_action:/home/stargate/ros2_humble/install/rqt_msg:/home/stargate/ros2_humble/install/rqt_console:/home/stargate/ros2_humble/install/rqt:/home/stargate/ros2_humble/install/rqt_graph:/home/stargate/ros2_humble/install/rqt_gui_py:/home/stargate/ros2_humble/install/rqt_gui:/home/stargate/ros2_humble/install/ros2trace:/home/stargate/ros2_humble/install/ros2topic:/home/stargate/ros2_humble/install/ros2test:/home/stargate/ros2_humble/install/ros2component:/home/stargate/ros2_humble/install/ros2param:/home/stargate/ros2_humble/install/ros2lifecycle:/home/stargate/ros2_humble/install/ros2service:/home/stargate/ros2_humble/install/ros2run:/home/stargate/ros2_humble/install/ros2plugin:/home/stargate/ros2_humble/install/ros2launch:/home/stargate/ros2_humble/install/ros2pkg:/home/stargate/ros2_humble/install/ros2node:/home/stargate/ros2_humble/install/ros2multicast:/home/stargate/ros2_humble/install/ros2interface:/home/stargate/ros2_humble/install/ros2doctor:/home/stargate/ros2_humble/install/ros2action:/home/stargate/ros2_humble/install/ros2cli:/home/stargate/ros2_humble/install/quality_of_service_demo_py:/home/stargate/ros2_humble/install/lifecycle_py:/home/stargate/ros2_humble/install/launch_testing_ros:/home/stargate/ros2_humble/install/launch_ros:/home/stargate/ros2_humble/install/examples_rclpy_pointcloud_publisher:/home/stargate/ros2_humble/install/examples_rclpy_minimal_subscriber:/home/stargate/ros2_humble/install/examples_rclpy_minimal_service:/home/stargate/ros2_humble/install/examples_rclpy_minimal_publisher:/home/stargate/ros2_humble/install/examples_rclpy_minimal_client:/home/stargate/ros2_humble/install/examples_rclpy_minimal_action_server:/home/stargate/ros2_humble/install/examples_rclpy_minimal_action_client:/home/stargate/ros2_humble/install/examples_rclpy_guard_conditions:/home/stargate/ros2_humble/install/examples_rclpy_executors:/home/stargate/ros2_humble/install/demo_nodes_py:/home/stargate/ros2_humble/install/camera_info_manager_py:/home/stargate/ros2_humble/install/action_tutorials_py:/home/stargate/ros2_humble/install/ament_uncrustify:/home/stargate/ros2_humble/install/tracetools_trace:/home/stargate/ros2_humble/install/tracetools_read:/home/stargate/ros2_humble/install/test_tracetools_launch:/home/stargate/ros2_humble/install/test_launch_ros:/home/stargate/ros2_humble/install/sensor_msgs_py:/home/stargate/ros2_humble/install/rpyutils:/home/stargate/ros2_humble/install/rosidl_runtime_py:/home/stargate/ros2_humble/install/rosidl_cli:/home/stargate/ros2_humble/install/launch_pytest:/home/stargate/ros2_humble/install/launch_testing:/home/stargate/ros2_humble/install/launch_yaml:/home/stargate/ros2_humble/install/launch_xml:/home/stargate/ros2_humble/install/launch:/home/stargate/ros2_humble/install/osrf_pycommon:/home/stargate/ros2_humble/install/domain_coordinator:/home/stargate/ros2_humble/install/ament_xmllint:/home/stargate/ros2_humble/install/ament_pyflakes:/home/stargate/ros2_humble/install/ament_pycodestyle:/home/stargate/ros2_humble/install/ament_pep257:/home/stargate/ros2_humble/install/ament_pclint:/home/stargate/ros2_humble/install/ament_package:/home/stargate/ros2_humble/install/ament_mypy:/home/stargate/ros2_humble/install/ament_lint_cmake:/home/stargate/ros2_humble/install/ament_flake8:/home/stargate/ros2_humble/install/ament_copyright:/home/stargate/ros2_humble/install/ament_lint:/home/stargate/ros2_humble/install/ament_index_python:/home/stargate/ros2_humble/install/ament_cpplint:/home/stargate/ros2_humble/install/ament_cppcheck:/home/stargate/ros2_humble/install/ament_clang_tidy:/home/stargate/ros2_humble/install/ament_clang_format /usr/bin/cmake --install /home/stargate/slam_ws/build/vision_msgs
+[39.789s] Level 1:colcon.colcon_core.environment:checking '/home/stargate/slam_ws/install/vision_msgs' for CMake module files
+[39.790s] Level 1:colcon.colcon_core.environment:checking '/home/stargate/slam_ws/install/vision_msgs' for CMake config files
+[39.792s] Level 1:colcon.colcon_core.shell:create_environment_hook('vision_msgs', 'cmake_prefix_path')
+[39.792s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/stargate/slam_ws/install/vision_msgs/share/vision_msgs/hook/cmake_prefix_path.ps1'
+[39.793s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/stargate/slam_ws/install/vision_msgs/share/vision_msgs/hook/cmake_prefix_path.dsv'
+[39.794s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/stargate/slam_ws/install/vision_msgs/share/vision_msgs/hook/cmake_prefix_path.sh'
+[39.794s] Level 1:colcon.colcon_core.environment:checking '/home/stargate/slam_ws/install/vision_msgs/lib'
+[39.795s] Level 1:colcon.colcon_core.shell:create_environment_hook('vision_msgs', 'ld_library_path_lib')
+[39.795s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/stargate/slam_ws/install/vision_msgs/share/vision_msgs/hook/ld_library_path_lib.ps1'
+[39.795s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/stargate/slam_ws/install/vision_msgs/share/vision_msgs/hook/ld_library_path_lib.dsv'
+[39.795s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/stargate/slam_ws/install/vision_msgs/share/vision_msgs/hook/ld_library_path_lib.sh'
+[39.796s] Level 1:colcon.colcon_core.environment:checking '/home/stargate/slam_ws/install/vision_msgs/bin'
+[39.796s] Level 1:colcon.colcon_core.environment:checking '/home/stargate/slam_ws/install/vision_msgs/lib/pkgconfig/vision_msgs.pc'
+[39.800s] Level 1:colcon.colcon_core.environment:checking '/home/stargate/slam_ws/install/vision_msgs/lib/python3.11/site-packages'
+[39.800s] Level 1:colcon.colcon_core.environment:checking '/home/stargate/slam_ws/install/vision_msgs/bin'
+[39.801s] INFO:colcon.colcon_core.shell:Creating package script '/home/stargate/slam_ws/install/vision_msgs/share/vision_msgs/package.ps1'
+[39.802s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/stargate/slam_ws/install/vision_msgs/share/vision_msgs/package.dsv'
+[39.802s] INFO:colcon.colcon_core.shell:Creating package script '/home/stargate/slam_ws/install/vision_msgs/share/vision_msgs/package.sh'
+[39.803s] INFO:colcon.colcon_core.shell:Creating package script '/home/stargate/slam_ws/install/vision_msgs/share/vision_msgs/package.bash'
+[39.803s] INFO:colcon.colcon_core.shell:Creating package script '/home/stargate/slam_ws/install/vision_msgs/share/vision_msgs/package.zsh'
+[39.804s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/stargate/slam_ws/install/vision_msgs/share/colcon-core/packages/vision_msgs)
+[39.805s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vision_msgs)
+[39.805s] Level 1:colcon.colcon_core.environment:checking '/home/stargate/slam_ws/install/vision_msgs' for CMake module files
+[39.806s] Level 1:colcon.colcon_core.environment:checking '/home/stargate/slam_ws/install/vision_msgs' for CMake config files
+[39.808s] Level 1:colcon.colcon_core.shell:create_environment_hook('vision_msgs', 'cmake_prefix_path')
+[39.808s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/stargate/slam_ws/install/vision_msgs/share/vision_msgs/hook/cmake_prefix_path.ps1'
+[39.809s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/stargate/slam_ws/install/vision_msgs/share/vision_msgs/hook/cmake_prefix_path.dsv'
+[39.816s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/stargate/slam_ws/install/vision_msgs/share/vision_msgs/hook/cmake_prefix_path.sh'
+[39.817s] Level 1:colcon.colcon_core.environment:checking '/home/stargate/slam_ws/install/vision_msgs/lib'
+[39.817s] Level 1:colcon.colcon_core.shell:create_environment_hook('vision_msgs', 'ld_library_path_lib')
+[39.817s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/stargate/slam_ws/install/vision_msgs/share/vision_msgs/hook/ld_library_path_lib.ps1'
+[39.818s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/stargate/slam_ws/install/vision_msgs/share/vision_msgs/hook/ld_library_path_lib.dsv'
+[39.819s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/stargate/slam_ws/install/vision_msgs/share/vision_msgs/hook/ld_library_path_lib.sh'
+[39.820s] Level 1:colcon.colcon_core.environment:checking '/home/stargate/slam_ws/install/vision_msgs/bin'
+[39.820s] Level 1:colcon.colcon_core.environment:checking '/home/stargate/slam_ws/install/vision_msgs/lib/pkgconfig/vision_msgs.pc'
+[39.820s] Level 1:colcon.colcon_core.environment:checking '/home/stargate/slam_ws/install/vision_msgs/lib/python3.11/site-packages'
+[39.821s] Level 1:colcon.colcon_core.environment:checking '/home/stargate/slam_ws/install/vision_msgs/bin'
+[39.821s] INFO:colcon.colcon_core.shell:Creating package script '/home/stargate/slam_ws/install/vision_msgs/share/vision_msgs/package.ps1'
+[39.821s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/stargate/slam_ws/install/vision_msgs/share/vision_msgs/package.dsv'
+[39.822s] INFO:colcon.colcon_core.shell:Creating package script '/home/stargate/slam_ws/install/vision_msgs/share/vision_msgs/package.sh'
+[39.823s] INFO:colcon.colcon_core.shell:Creating package script '/home/stargate/slam_ws/install/vision_msgs/share/vision_msgs/package.bash'
+[39.824s] INFO:colcon.colcon_core.shell:Creating package script '/home/stargate/slam_ws/install/vision_msgs/share/vision_msgs/package.zsh'
+[39.826s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/stargate/slam_ws/install/vision_msgs/share/colcon-core/packages/vision_msgs)
+[39.829s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[39.829s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[39.829s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[39.829s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[39.844s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[39.844s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[39.844s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[39.844s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[39.845s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[39.845s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[39.845s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/stargate/slam_ws/install/local_setup.ps1'
+[39.846s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/stargate/slam_ws/install/_local_setup_util_ps1.py'
+[39.847s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/stargate/slam_ws/install/setup.ps1'
+[39.859s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/stargate/slam_ws/install/local_setup.sh'
+[39.860s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/stargate/slam_ws/install/_local_setup_util_sh.py'
+[39.860s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/stargate/slam_ws/install/setup.sh'
+[39.872s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/stargate/slam_ws/install/local_setup.bash'
+[39.872s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/stargate/slam_ws/install/setup.bash'
+[39.884s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/stargate/slam_ws/install/local_setup.zsh'
+[39.884s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/stargate/slam_ws/install/setup.zsh'

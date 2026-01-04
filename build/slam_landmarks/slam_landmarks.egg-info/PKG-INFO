@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: slam-landmarks
+Version: 1.0.0
+Summary: YOLO-based landmark detection and 3D association for SLAM
+Maintainer: Bala
+Maintainer-email: balamahendrareddybhi@gmail.com
+License: Apache-2.0
+License-File: LICENSE

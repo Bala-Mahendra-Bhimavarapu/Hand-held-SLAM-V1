@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: slam-sensors
+Version: 1.0.0
+Summary: SLAM sensor nodes for Pi AI Camera, Arducam ToF, and MPU6050 IMU module
+Maintainer: Bala
+Maintainer-email: balamahendrareddybhi@gmail.com
+License: Apache-2.0
+License-File: LICENSE

@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/stargate/slam_ws/build/vision_msgs/rosidl_generator_py/vision_msgs/vision_msgs_s__rosidl_typesupport_c.cpython-311-aarch64-linux-gnu.so" "TARGETS" "vision_msgs__rosidl_typesupport_c__pyext" "DESTINATION" "local/lib/python3.11/dist-packages/vision_msgs")
