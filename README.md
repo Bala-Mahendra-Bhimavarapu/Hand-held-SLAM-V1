@@ -29,8 +29,8 @@ Issues:
 
 Special Notes:
   - When building ROS2 Humble make sure empy is uninstalled otherwise it will cause errors in the build process.
-  - To check if ROS2 Humble is build properly instead of using "ros2 --version" use "echo $ROS_DISTRO" and check if it says humble.
-  - Running rviz2 requires x11 compatibility which isn't naturally found in Raspberry pi OS and you can force x11 compatibility using this command "export QT_QPA_PLATFORM=xcb" you can also add this to ~/.bashrc
-  - To automatically enable ros2 in system and files along with x11 compatibility you can add "source ~/ros2_humble/install/setup.bash",  and "export QT_QPA_PLATFORM=xcb".
+  - To check if ROS2 Humble is build properly instead of using `ros2 --version` use `echo $ROS_DISTRO` and check if it says humble.
+  - Running rviz2 requires x11 compatibility which isn't naturally found in Raspberry pi OS and you can force x11 compatibility using this command `export QT_QPA_PLATFORM=xcb` you can also add this to ~/.bashrc
+  - To automatically enable ros2 in system and files along with x11 compatibility you can add `source ~/ros2_humble/install/setup.bash`,  and `export QT_QPA_PLATFORM=xcb`.
   - The whole system runs at a decent speed but can improve for object detection, streaming, and tof camera, optimization will take place after the whole system rover system is ready and working or atleast one rover is ready and working.
-  - Also there are excess files in the project right now as i failed to do some of the things i wanted to and had to scale back a bit and the main code working right know is the sensor only code and it can be run by activating ros2 and then running "ros2 launch slam_bringup sensors_only.launch.py".
+  - Also there are excess files in the project right now as i failed to do some of the things i wanted to and had to scale back a bit and the main code working right know is the sensor only code and it can be run by activating ros2 and then running `ros2 launch slam_bringup sensors_only.launch.py`.
