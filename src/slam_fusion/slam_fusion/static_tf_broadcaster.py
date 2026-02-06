@@ -1,20 +1,20 @@
 #!/usr/bin/env python3
 """Static TF Broadcaster"""
-
 import rclpy
 from rclpy.node import Node
 from geometry_msgs.msg import TransformStamped
 from tf2_ros import StaticTransformBroadcaster
+import math
 
 class StaticTFBroadcaster(Node):
     def __init__(self):
         super().__init__('static_tf_broadcaster')
         self.broadcaster = StaticTransformBroadcaster(self)
         self.publish_static_transforms()
-
+    
     def publish_static_transforms(self):
         static_transforms = []
-
+        
         # base_link -> imu_link
         t1 = TransformStamped()
         t1.header.frame_id = 'base_link'
@@ -24,7 +24,7 @@ class StaticTFBroadcaster(Node):
         t1.transform.translation.z = 0.055
         t1.transform.rotation.w = 1.0
         static_transforms.append(t1)
-
+        
         # base_link -> camera_link
         t2 = TransformStamped()
         t2.header.frame_id = 'base_link'
@@ -34,8 +34,8 @@ class StaticTFBroadcaster(Node):
         t2.transform.translation.z = 0.025
         t2.transform.rotation.w = 1.0
         static_transforms.append(t2)
-
-        # base_link -> tof_link
+        
+        # base_link -> tof_link (physical camera mount)
         t3 = TransformStamped()
         t3.header.frame_id = 'base_link'
         t3.child_frame_id = 'tof_link'
@@ -44,12 +44,27 @@ class StaticTFBroadcaster(Node):
         t3.transform.translation.z = 0.027
         t3.transform.rotation.w = 1.0
         static_transforms.append(t3)
-
+        
+        # tof_link -> tof_optical_frame (camera lens/optical frame)
+        # Rotation: -90° around X, then -90° around Z (standard camera optical frame)
+        t4 = TransformStamped()
+        t4.header.frame_id = 'tof_link'
+        t4.child_frame_id = 'tof_optical_frame'
+        t4.transform.translation.x = 0.0
+        t4.transform.translation.y = 0.0
+        t4.transform.translation.z = 0.0
+        # Quaternion for -90° X then -90° Z rotation
+        t4.transform.rotation.x = 0.5
+        t4.transform.rotation.y = -0.5
+        t4.transform.rotation.z = -0.5
+        t4.transform.rotation.w = 0.5
+        static_transforms.append(t4)
+        
         for t in static_transforms:
             t.header.stamp = self.get_clock().now().to_msg()
-
+        
         self.broadcaster.sendTransform(static_transforms)
-        self.get_logger().info('Static TF published')
+        self.get_logger().info('Static TF published with ToF optical frame')
 
 def main(args=None):
     rclpy.init(args=args)
