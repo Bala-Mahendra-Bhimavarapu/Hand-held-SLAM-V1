@@ -25,7 +25,7 @@ class ArducamToFNode(Node):
         super().__init__('arducam_tof_node')
 
         # Parameters
-        self.declare_parameter('frame_id', 'tof_link')
+        self.declare_parameter('frame_id', 'tof_optical_frame')
         self.declare_parameter('fps', 20)
         self.declare_parameter('max_distance', 4000)
         self.declare_parameter('min_distance', 200)
