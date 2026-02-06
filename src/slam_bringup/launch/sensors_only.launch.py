@@ -67,7 +67,7 @@ def generate_launch_description():
         name='arducam_tof',
         output='screen',
         parameters=[{
-            'frame_id': 'tof_link',
+            'frame_id': 'tof_optical_frame',
             'fps': 20,
             'max_distance': 4000,
             'min_distance': 200,
