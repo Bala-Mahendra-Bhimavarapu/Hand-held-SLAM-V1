@@ -88,7 +88,7 @@ target_link_libraries(${PROJECT_NAME}
   rviz_common::rviz_common
   rviz_rendering::rviz_rendering
   rviz_default_plugins::rviz_default_plugins
-  yaml-cpp::yaml-cpp
+  yaml-cpp
 )
 
 # Export the plugin to be imported by rviz2
