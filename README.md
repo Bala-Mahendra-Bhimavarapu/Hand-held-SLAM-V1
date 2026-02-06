@@ -34,3 +34,14 @@ Special Notes:
   - To automatically enable ros2 in system and files along with x11 compatibility you can add `source ~/ros2_humble/install/setup.bash`,  and `export QT_QPA_PLATFORM=xcb`.
   - The whole system runs at a decent speed but can improve for object detection, streaming, and tof camera, optimization will take place after the whole system rover system is ready and working or atleast one rover is ready and working.
   - Also there are excess files in the project right now as i failed to do some of the things i wanted to and had to scale back a bit and the main code working right know is the sensor only code and it can be run by activating ros2 and then running `ros2 launch slam_bringup sensors_only.launch.py`.
+
+Rviz2 setup:
+  - When launching rviz2 setup the fixed frame as base_link
+  - go under displays and click add, then click By topic at the top
+  - then go to camera/detections/annotated and click Image and then ok
+  - repeat for image_raw, landmarks_3d and click Marker Array, tof/depth/image_colored and then click image, tof/points then click pointcloud2
+  - then go to By display type and scroll down and click on TF and add
+  - then you will have a clean view of everything going on and get clean visuals
+
+2/5/26:
+  - fixed the cloudpoint pointing up and now it looks forward with where the tof camera is looking
